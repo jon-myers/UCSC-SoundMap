@@ -1,0 +1,104 @@
+catalog number,date,start time,recordist name,colloquial location,latitude,longitude,recorder number,linked video filenames,Linked audio catalog #,notes,Audited,Orientation,Elevation
+1,2019/4/7,15:41:00,Jon Myers,,36.9936,-122.0599,1,“SAM_101_0524_1554676886000.mp4” + “SAM_101_0525.mp4”,N/A,,yes,N/A,N/A
+2,2019/4/7,16:00:00,Jon Myers,,36.993,-122.0583,1,N/A,N/A,,yes,N/A,N/A
+3,2019/4/7,17:35:00,Jon Myers,,37.0035,-122.185,1,“SAM_101_0527.mp4” + “SAM_101_0528.mp4”,6,"Spoken info at end of clip. Videos continue beyond audio, by accident",yes,N/A,N/A
+4,2019/4/7,17:55:00,Jon Myers,,37.0041,-122.1851,1,“SAM_101_0529.mp4”,7,,yes,N/A,N/A
+5,2019/4/7,18:39:00,Jon Myers,,37.0002,-122.1809,1,"“SAM_101_0530_1554687561000.mp4” + “SAM_101_0531,mp4”",8,,yes,N/A,N/A
+6,2019/4/7,17:35:00,Marguerite Brown,,37.0035,-122.185,2,N/A,3,Spoken info at end of clip.,yes,N/A,N/A
+7,2019/4/7,17:55:00,Marguerite Brown,,37.0041,-122.1851,2,N/A,4,,yes,N/A,N/A
+8,2019/4/7,18:39:00,Marguerite Brown,,37.0002,-122.1809,2,N/A,5,,yes,N/A,N/A
+9,2019/4/17,11:37:00,Jon Myers,"The grand concourse outside the music center, overlooking the cow pasture",36.993,-122.0604,1,N/A,N/A,Gamelan class in session,yes,N/A,N/A
+10,2019/4/17,11:54:00,Jon Myers,Field in front of Chancellor’s residence,36.9922,-122.0611,1,N/A,N/A,,yes,N/A,N/A
+11,2019/4/17,12:18:00,Jon Myers,3rd floor balcony of the DARC.,36.9937,-122.0607,1,N/A,N/A,,yes,N/A,N/A
+12,2019/4/18,11:34:00,Jon Myers,Off the path between Mchenry Library and AR center,36.9949,-122.0598,1,N/A,N/A,Cicadas,yes; (very audible student talks about getting high /playing overwatch . . .  at 1:45; is this okay to include?),N/A,N/A
+13,2019/4/18,11:46:00,Jon Myers,"Path near McHenry parking lot, beneath the Art buildings, tiny Redwood Grove",36.9958,-122.0606,1,N/A,N/A,Cicadas,yes,N/A,N/A
+14,2019/4/18,18:23:00,Jon Myers,"Kerr road, outside visual arts complex.",36.9945,-122.0614,1,N/A,N/A,Loud van w/ engine on in middle of recording.,yes,N/A,N/A
+15,2019/4/18,18:34:00,Jon Myers,"Outside Kerr Hall, on  a path",36.9965,-122.0613,1,N/A,N/A,,yes,N/A,N/A
+16,2019/4/18,18:50:00,Jon Myers,Path below Kresge college,36.9956,-122.0665,1,N/A,N/A,,yes,N/A,N/A
+17,2019/4/18,19:04:00,Jon Myers,"Hillside by porter meadow , overlooking empire grade",36.9958,-122.0684,1,N/A,N/A,,yes,N/A,N/A
+18,2019/4/18,19:12:00,Jon Myers,"in the Empire Cave, near entrance",36.9961,-122.0688,1,N/A,N/A,loud fussing at beginning,yes,N/A,N/A
+19,2019/4/18,19:38:00,Jon Myers,bottom of the steps near arts complex,36.9933,-122.0627,1,N/A,N/A,,“Butt-chugging vodka” overheard . . . perhaps this needs to be edited / not included,N/A,N/A
+20,2019/4/19,17:47:00,Sam Cushman,"Upper Campus, three paths that meet.",37.0193,-122.0742,1,N/A,"22, 24",No GPS signal; best guess from map.,"Yes; Some speech on record, but I think it is okay . . .",N/A,N/A
+21,2019/4/19,18:06:00,Sam Cushman,"Upper Campus, just SE of the painted tanks",37.01,-122.0661,1,N/A,"23, 25",No GPS signal; reconstructed from map. Strange Growling in the distance. Woodpecker?,Yes; some speech of passersby.,N/A,N/A
+22,2019/4/19,17:47:00,Zach Hejny,"Upper Campus, three paths that meet.",37.0197,-122.0742,2,N/A,"20, 24","No GPS signal; best guess from map. Recorder left on at end by accident, incidental conversation / walking was recorded. Owl as we approach second location.","Yes; Some speech on record, but I think it is okay . . .",N/A,N/A
+23,2019/4/19,18:06:00,Zach Hejny,"Upper Campus, just NW of the painted tanks",37.0101,-122.0664,2,N/A,"21, 25",No GPS signal; reconstructed from map. Strange Growling in the distance. Woodpecker?,"Yes; Some speech on record, but I think it is okay . . .",N/A,N/A
+24,2019/4/19,17:47:00,Jon Myers,"Upper Campus, three paths that meet.",37.0194,-122.0735,9,N/A,"20, 22","No GPS signal; best guess from map. Recorder left on at end by accident, incidental conversation / walking was recorded. Owl as we approach second location.","Yes; Some speech on record, but I think it is okay . . .",N/A,N/A
+25,2019/4/19,18:06:00,Jon Myers,"Upper Campus, amids / beneath the painted tanks",37.0101,-122.0662,9,N/A,"21, 23",No GPS signal; reconstructed from map. Strange Growling in the distance. Woodpecker?,"Yes; Some speech on record, but I think it is okay . . .",N/A,N/A
+26,2019/4/23,10:26:00,Jon Myers / Dard Neumann,Krechmer Plaza,36.9931,-122.0601,1,N/A,27,"one on either side of the plaza, facing the ocean.",Yes. (Zach Hejny interrupts),N/A,N/A
+27,2019/4/23,10:26:00,Jon Myers / Dard Neumann,Krechmer Plaza,36.9931,-122.0601,9,N/A,26,"one on either side of the plaza, facing the ocean.",Yes. (Zach Hejny interrupts),N/A,N/A
+28,2019/4/21,23:53:00,Skylar Liu,Grass field next to Rachel Carson college.,36.9933,-122.063,3,N/A,N/A,,yes,N/A,N/A
+29,2019/4/20,17:00:00,Jon Myers,Upper Quary,36.9989,-122.0587,4,N/A,N/A,,yes,N/A,N/A
+30,2019/4/20,17:09:00,Jon Myers,Under a bridge beneath McLaughlin drive;  near college 10.,36.9998,-122.0587,4,N/A,N/A,,yes,N/A,N/A
+31,2019/4/20,17:26:00,Jon Myers,In a redwood grove; upper campus,37.0025,-122.0616,4,N/A,N/A,no gps signal . . . did my best at the time. Nothing much going on here in this recording . . .,yes,N/A,N/A
+32,2019/4/20,17:46:00,Jon Myers,seep zone interpretive trail # 09,37.0048,-122.0621,4,N/A,N/A,no gps signal . . . did my best at the time. Nothing much going on here in this recording . . .,yes,N/A,N/A
+33,2019/4/20,17:55:00,Jon Myers,above seep zone interpretive trail,37.005,-122.0609,4,N/A,N/A,crazy sounding dead Tree! no gps signal . . . did my best at the time. Nothing much going on here in this recording . . .,yes,N/A,N/A
+34,2019/4/21,10:04:00,Jon Myers,Krechmer Plaza entry corridor,36.9934,-122.0602,6,N/A,N/A,,yes,N/A,N/A
+35,2019/4/21,10:17:00,Jon Myers,point of triangle behind music center,36.9928,-122.0599,6,N/A,N/A,,yes,N/A,N/A
+36,2019/4/22,14:30:00,Miranda Barbiere,east field meadow,36.9928,-122.0591,2,N/A,N/A,She seems to be walking around ??!! Are those cows?,yes,N/A,N/A
+37,2019/4/16,12:52:00,Mustafa Walker,Woods between Rachel Carson College and Music Center,36.99,-122.06,7,N/A,N/A,Should try get better coordinates somehow . . .,yes,N/A,N/A
+38,2019/4/20,11:35:00,Mustafa Walker,Upper Quary,36.9987,-122.0578,7,N/A,N/A,,yes,N/A,N/A
+39,2019/4/20,12:11:00,Mustafa Walker,West Fork; Jordan Gultch,37.0025,-122.0604,7,N/A,N/A,,yes,N/A,N/A
+40,2019/4/20,13:01:00,Mustafa Walker,Amphitheater behind theater department,36.9959,-122.062,7,N/A,N/A,,yes,N/A,N/A
+41,2019/4/30,9:40:00,Daniel Augenbaugh ,Hill below the recital hall.,36.9911,-122.0611,8,N/A,N/A,,yes,N/A,N/A
+42,2019/4/23,11:22:00,Max Green,,36.9934,-122.0601,10,N/A,N/A,gamelan drums; cicadas,Yes; watch out for speech at end!,N/A,N/A
+43,2019/4/23,11:48:00,Max Green,,36.9939,-122.0624,10,N/A,N/A,Cicadas!!! (and cars),yes,N/A,N/A
+44,2019/4/25,17:50:00,Catalina Castro,Pogonip Trail,36.99,-122.041,1,N/A,N/A,,yes,N/A,N/A
+45,2019/5/4,17:54:00,Catalina Castro,Porter Meadows,36.9948,-122.068,1,N/A,N/A,,yes,N/A,N/A
+46,2019/5/4,18:00:00,Catalina Castro,Porter Meadows,36.9948,-122.068,1,N/A,N/A,,yes,N/A,N/A
+47,2019/5/7,10:50:00,Max Green,,36.9911,-122.0614,9,N/A,N/A,,yes,N/A,N/A
+48,2019/5/7,11:30:00,Max Green,Porter Dining Hall,36.9953,-122.066,9,N/A,N/A,,yes,N/A,N/A
+49,2019/5/15,9:16:00,Max Green,,36.997,-122.061,9,N/A,N/A,Rain!,yes,N/A,N/A
+50,2019/5/17,15:33:00,Jon Myers,"Mitchell’s Cove, off West Cliff Drive",36.9525,-122.0416,1,,N/A,"Dogs, Ocean",yes,N/A,N/A
+51,2019/5/17,15:41:00,Jon Myers,"Mitchell's Cove, off West Cliff Drive",36.952,-122.042,1,,N/A,"Dog, waterfall, ocean.",yes,N/A,N/A
+52,2019/5/17,16:25:00,Jon Myers,Near Maze off Spring Trail in Pogonip,36.9923,-122.0488,1,N/A,N/A,Cicadas. walkers.,yes. (Some random chatter; I think it is fine to post),N/A,N/A
+53,2019/5/17,16:34:00,Jon Myers,Spring Trail in Pogonip,36.9943,-122.0488,1,N/A,N/A,Wind. Birds.,Yes.,N/A,N/A
+54,2019/5/17,16:52:00,Jon Myers,Above a spring along Spring Trail in Pogonip.,36.9971,-122.0489,1,,N/A,Creek.,Yes.,N/A,N/A
+55,2019/5/17,17:09:00,Jon Myers,"Brayshaw Trail, Pogonip",36.997,-122.0465,1,N/A,N/A,Birds.,Yes.,N/A,N/A
+56,2019/5/17,17:24:00,Jon Myers,"Brayshaw Trail, Pogonip",36.997,-122.0462,1,N/A,N/A,Birds. Cicadas,Yes.,N/A,N/A
+57,2019/5/18,11:22:00,Jon Myers,1911 Looff Carousel at the Santa Cruz Boardwalk,36.9642,-122.0185,1,,N/A,"Band Organs, PA system, some chatter (asking permission). Moving around to get in Queue at the end.",Yes.,N/A,N/A
+58,2019/5/18,11:29:00,Jon Myers,1911 Looff Carousel at the Santa Cruz Boardwalk,36.9642,-122.0185,1,,N/A,"Band Organs, PA System, people throwing rings, screaming, riding on the ride. ",Yes.,N/A,N/A
+59,2019/5/15,12:41:00,Iam Bhisitkul,Upper Quarry (Behind the Amphitheater),36.9988,-122.0579,3,N/A,N/A,,yes,N/A,N/A
+60,2019/5/28,13:46:00,Jon Myers,Behind the Music Center,36.9929,-122.0604,6,N/A,N/A,,yes,N/A,N/A
+61,2019/5/5,18:05:00,Albert Peacock,Under the bridge connecting Science Hill to College 9/10,37.0001,-122.0596,2,N/A,N/A,,yes,N/A,N/A
+62,2019/6/1,17:22:00,Jon Myers,"Seaview and Logan, in Seabright, Santa Cruz.",36.969,-122.0116,6,N/A,N/A,Mockingbird; documentation at the end of recording.,yes,N/A,N/A
+63,2019/6/3,9:39:00,Jon Myers,,36.9961,-122.0612,6,N/A,N/A,,yes,N/A,N/A
+64,2019/6/3,9:55:00,Jon Myers,"outside Norris center for Natural history, across from Science Library",36.9987,-122.0606,6,N/A,N/A,Noise / vent,yes,N/A,N/A
+65,2019/6/3,10:14:00,Jon Myers,outside Marine Sciences building.,36.998,-122.0603,6,N/A,N/A,,yes,N/A,N/A
+66,2019/5/5,19:00:00,Albert Peacock,Entrance to Bike path by Music Center. ,36.9926,-122.0605,2,N/A,N/A,,yes,N/A,N/A
+67,2019/5/5,19:05:00,Albert Peacock,Entrance to Bike path by Music Center. ,36.9926,-122.0605,2,N/A,N/A,,yes,N/A,N/A
+68,2019/5/12,19:29:00,Albert Peacock,Grass behind McHenry Library,36.9956,-122.0594,2,N/A,N/A,,yes,N/A,N/A
+69,2019/5/12,19:53:00,Albert Peacock,Top Floor of Core West Parking Structure,36.9992,-122.0638,2,N/A,N/A,,yes,N/A,N/A
+70,2019/5/29,13:44:00,Krista Dugan,Cow Pasture,36.9942,-122.0604,8,N/A,N/A,cicadas,yes,N/A,N/A
+71,2019/5/29,14:26:00,Krista Dugan,Oakes to Music center trail,36.9911,-122.0633,8,N/A,N/A,,yes,N/A,N/A
+72,2019/5/29,15:13:00,Krista Dugan,Porter Meadows,36.9956,-122.0678,8,N/A,N/A,cicadas,yes,N/A,N/A
+73,2019/5/29,16:06:00,Krista Dugan,Under the bridge connecting science hill to classroom unit 2,36.9978,-122.0578,8,N/A,N/A,,,N/A,N/A
+74,2019/5/29,18:20:00,Krista Dugan,Trail by Cowell Stevenson Bus Stop,36.9961,-122.056,8,N/A,N/A,,yes,N/A,N/A
+75,2019/5/12,20:54:00,Albert Peacock,Bench in Porter Meadows,36.9992,-122.0638,2,N/A,N/A,mostly silent,yes,N/A,N/A
+76,2019/5/12,20:56:00,Albert Peacock,Bench in Porter Meadows,36.996,-122.0678,2,N/A,N/A,mostly silent,yes,N/A,N/A
+77,2019/5/17,19:38:00,Albert Peacock,Santa Cruz Wharf,36.9573,-122.0173,2,N/A,N/A,great sea lions and water fowl. No attribution.,"yes; Some speech, but lots of speechless sections",N/A,N/A
+78,2019/5/17,19:58:00,Albert Peacock,Santa Cruz Wharf,36.9573,-122.0173,2,N/A,N/A,great sea lions and water fowl. No attribution.,"yes, just a little bit of speech",N/A,N/A
+79,2019/5/19,18:33:00,Albert Peacock,The Painted Barrels (on upper campus),37.0099,-122.0661,2,N/A,N/A,,yes,N/A,N/A
+80,2019/5/19,18:37:00,Albert Peacock,The Painted Barrels (on upper campus),37.0099,-122.0661,2,N/A,N/A,"(again, with higher gain)",yes,N/A,N/A
+81,2019/5/20,15:58:00,Albert Peacock,Woodshop in art center,36.9948,-122.0609,2,N/A,N/A,canned music. Is posting of copywritten material okay?,yes,N/A,N/A
+82,2019/5/20,16:04:00,Albert Peacock,Woodshop in Art Center,36.9948,-122.0609,2,N/A,N/A,canned music. Is posting of copywritten material okay?,yes,N/A,N/A
+83,2019/5/20,16:39:00,Albert Peacock,"Outside of the Foundry, Theater arts dept.",36.9955,-122.0622,2,N/A,N/A,,yes,N/A,N/A
+84,2019/5/28,10:53:00,Albert Peacock,"Koi Pond, Porter College.",36.9942,-122.0651,2,N/A,N/A,,yes,N/A,N/A
+85,2019/5/28,17:10:00,Claudio Sangeroki,Porter Quad,36.9953,-122.0653,9,N/A,N/A,distortion / hand sounds in first few minutes?,yes,N/A,N/A
+86,2019/5/28,17:15:00,Claudio Sangeroki,Porter Quad,36.9949,-122.0649,9,N/A,N/A,,yes,N/A,N/A
+87,2019/5/28,17:30:00,Claudio Sangeroki,"Koi Pond, Porter College.",36.994,-122.0652,9,N/A,N/A,,yes,N/A,N/A
+88,2019/5/28,17:44:00,Claudio Sangeroki,Bridge in front of Kerr Hall Bus Stop,36.9968,-122.0642,9,N/A,N/A,,yes,N/A,N/A
+89,2019/6/5,15:06:00,Jon Myers,McHenry Viaduct,36.9963,-122.0579,6,N/A,N/A,"Footsteps reverberating through bridge, into mics . . . Not airborne sound, more vibratory sound","yes; some speech, pretty innocuous.",N/A,N/A
+90,2019/6/5,15:12:00,Jon Myers,"Upper deck, north-facing side of Hahn Student Services",36.9963,-122.057,6,N/A,N/A,not much going on.,"yes; some speech, pretty innocuous.",N/A,N/A
+91,2019/6/5,15:21:00,Jon Myers,Gultch below Hagar Drive,36.9962,-122.0559,6,N/A,N/A,Great single bird.,yes,N/A,N/A
+92,2019/6/5,16:30:00,Jon Myers,Gultch below Hagar Drive,36.9957,-122.0563,6,N/A,N/A,Buzzing Cicada?,yes,N/A,N/A
+93,2019/6/6,11:09:00,Jon Myers,College 10 outside Building DC,37.0005,-122.0578,3,N/A,N/A,,"yes; some speech, pretty innocuous.",N/A,N/A
+94,2019/5/31,15:34:00,Albert Peacock,"Center of Trailer Park, near Kresge college.",37.0011,-122.0656,2,N/A,N/A,Cicadas!,"yes; some speech, pretty innocuous.",N/A,N/A
+95,2019/5/31,15:38:00,Albert Peacock,Trailer Park on Campus,37.0011,-122.0656,2,N/A,N/A,Cicadas!,"yes; some speech, pretty innocuous.",N/A,N/A
+96,2019/5/31,16:17:00,Albert Peacock,Behind Baskin Engineering,37.0016,-122.0633,2,N/A,N/A,Cicadas!,yes,N/A,N/A
+97,2019/6/12,10:06:00,Jon Myers,Heller Drive Trailhead,37.0034,-122.066,7,N/A,N/A,,yes,North,N/A
+98,2019/6/12,10:21:00,Jon Myers,Upper Campus,37.0047,-122.0678,7,N/A,N/A,,yes,North,274
+99,2019/6/12,10:30:00,Jon Myers,Upper Campus,37.0061,-122.0685,7,N/A,N/A,chatting humans nearby,yes,North,283
+100,2019/6/12,10:39:00,Jon Myers,Upper Campus,37.0065,-122.0665,7,N/A,N/A,train in the distance; great birds,yes,North,291
+101,2019/6/12,10:50:00,Jon Myers,Upper Campus,37.0067,-122.0649,7,N/A,N/A,,yes,North,296
+102,2019/6/16,19:37:00,Jon Myers,Natural Bridges parking lot,36.9524,-122.0578,7,N/A,N/A,,yes,North,7
+103,2019/6/16,20:00:00,Jon Myers,"Shaffer Road, next to Homeless Garden Project Farm",36.9559,-122.0625,7,N/A,N/A,,yes,North,16

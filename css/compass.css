@@ -1,0 +1,35 @@
+#compass .rs-handle  {
+    background-color: transparent;
+    border: 6px solid transparent;
+    border-right-color: black;
+    margin: -6px 0 0 -3px !important;
+}
+#compass .rs-handle:before  {
+    display: block;
+    content: " ";
+    position: absolute;
+    height: 4px;
+    width: 4px;
+    background: black;
+    right: -2px;
+    bottom: -2px;
+    border-radius: 100%;
+}
+#compass .rs-handle:after  {
+    display: block;
+    content: " ";
+    width: 12px;
+    position: absolute;
+    top: -1px;
+    right: 0px;
+    border-top: 2px solid black;
+}
+#compass .rs-range-color  {
+    background-color: #ddc5f0;
+}
+#compass .rs-path-color  {
+    background-color: #ddc5f0;
+}
+#compass .rs-control .rs-bg-color {
+  background-color: #000000;
+}

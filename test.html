@@ -1,0 +1,35 @@
+<!DOCTYPE HTML>
+<head>
+</head>
+<body>
+  <div id='test'>Nothing Yet.</div>
+  <button id='button' onclick = 'load(url);'>press me</button>
+
+  <script>
+
+
+
+
+// const url = 'https://api.meteostat.net/v1/history/hourly?station=10637&start=2017-01-01&end=2017-12-31&key=zGaQ9O7z'
+// const url = 'https://api.meteostat.net/v1/stations/nearby?lat=36.9896&lon=-122.0613&limit=50&key=zGaQ9O7z'
+const url = 'https://api.darksky.net/forecast/19e96fcdb69b584cd909e94f0a590f9a/37.8267,-122.4233'
+
+const load = (url) => {
+  const xhr = new XMLHttpRequest();
+  xhr.onreadystatechange = () => {
+    // console.log
+    if (xhr.readyState === 4) {
+      console.log(JSON.parse(xhr.response).data);
+    }
+  }
+  xhr.open('GET', url, true);
+  // xhr.setRequestHeader('token', 'wRsCPlbshwKGCBsByJCasGHBOiIcbtzm');
+  xhr.send('')
+};
+
+
+
+
+  </script>
+
+</body>

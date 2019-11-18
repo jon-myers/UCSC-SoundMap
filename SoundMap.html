@@ -1,0 +1,92 @@
+<!DOCTYPE HTML>
+<head>
+  <style>
+  /* Always set the map height explicitly to define the size of the div
+  * element that contains the map. */
+  #map {
+    height: 100%;
+
+  }
+  html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  </style>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/roundSlider/1.3.3/roundslider.min.css">
+  <link rel="stylesheet" type="text/css" href="css/compass.css">
+  <link rel="stylesheet" type="text/css" href="css/sideBar.css">
+  <link rel="stylesheet" type="text/css" href="css/nouislider.min.css">
+</head>
+
+<body>
+  <div id="sideBar" class="passive">
+    <button id="slide">
+    </button>
+    <div id='day-of-week'> <div class='slideBarTitle'>Day of the Week</div>
+    <div id='checkBoxes'>
+      <div id='mBox' class='checkBoxDiv'>M<br>
+        <input id='monday' type='checkbox' name='monday' checked onclick="testAndDisplay();">
+        <label for='monday'></label>
+      </div>
+      <div id='tBox' class='checkBoxDiv'>T<br>
+        <input id='tuesday' type='checkbox' name='tuesday' checked onclick="testAndDisplay();">
+        <label for='tuesday'></label>
+      </div>
+      <div id='wBox' class='checkBoxDiv'>W<br>
+        <input id='wednesday' type='checkbox' name='wednesday' checked onclick="testAndDisplay();">
+        <label for='wednesday'></label>
+      </div>
+      <div id='thBox' class='checkBoxDiv'>Th<br>
+        <input id='thursday' type='checkbox' name='thursday' checked onclick="testAndDisplay();">
+        <label for='thursday'></label>
+      </div>
+      <div id='fBox' class='checkBoxDiv'>F<br>
+        <input id='friday' type='checkbox' name='friday' checked onclick="testAndDisplay();">
+        <label for='friday'></label>
+      </div>
+      <div id='saBox' class='checkBoxDiv'>Sa
+        <input id='saturday' type='checkbox' name='saturday' checked onclick="testAndDisplay();">
+        <label for='saturday'></label>
+      </div>
+      <div id='suBox' class='checkBoxDiv'>Su<br>
+        <input id='sunday' type='checkbox' name='sunday' checked onclick="testAndDisplay();">
+        <label for='sunday'></label>
+      </div>
+    </div>
+  </div>
+
+  <div id='date-range'> <div class='slideBarTitle'>Date Range</div>
+    <div id='date-range-slider'>
+    </div>
+    <div id='date-displays'>
+      <div id='start-date-display'>start date</div>
+      <div id='end-date-display'>end date</div>
+    </div>
+  </div>
+
+  <div id='time-range'> <div class='slideBarTitle'>Time Range</div>
+    <div id='time-range-slider'></div>
+  </div>
+  <div id='show-info'>
+    <div id = 'info-catalog-number'></div>
+    <div id = 'info-date-time'></div>
+    <div id = 'textual-info'></div>
+  </div>
+</div>
+
+  <div id="map"></div>
+  <div id="slider"></div>
+  <audio id="audio-file"></audio>
+  <div id="audio-player"></div>
+  <script src="js/omnitone.min.js"></script>
+  <script src='js/nouislider.min.js'></script>
+  <script src="https://code.jquery.com/jquery-1.11.3.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/roundSlider/1.3.3/roundslider.min.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCGhu1F4W-9no_loG1NMvAPJgI7FMyU6RM&callback=initMap" async defer></script>
+  <script src='js/player.js'></script>
+  <script src = "js/map.js"> </script>
+  <script src="js/compass.js"></script>
+  <script src='js/sideBar.js'></script>
+</body>
