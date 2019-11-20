@@ -33,8 +33,11 @@ function initMap() {
     }
   });
   const script = document.createElement('script');
-  script.src = 'pins.js';
+  script.src = 'json/pins.js';
   document.getElementsByTagName('head')[0].appendChild(script);
+  const temps = document.createElement('script');
+  temps.src = 'json/currentTemps.js';
+  document.getElementsByTagName('head')[0].appendChild(temps);
 };
 
 const transformDate = dateString => {
@@ -54,21 +57,21 @@ const transformTime = timeString => {
 
 }
 
+
+
+
 const displayInfo = marker => {
   const date = transformDate(marker.tag.date);
   const time = transformTime(marker.tag.time);
   const dateTime = date + ' &#8212 ' + time;
   const catnum = 'Catalog Number: '+marker.tag.num;
   const textualInfo = marker.tag.textualInfo;
+  const weather = marker.tag.temp.summary + ', ' + Math.round(marker.tag.temp.temperature) + '&deg; F';
   document.querySelector('#info-catalog-number').innerHTML = catnum;
   document.querySelector('#info-date-time').innerHTML = dateTime;
   document.querySelector('#textual-info').innerHTML = textualInfo;
+  document.querySelector('#weather-info').innerHTML = weather;
 }
-
-
-
-
-
 
 
 let prevWindow;
@@ -90,7 +93,6 @@ const attachName = (marker, name, catalog_num) => {
     animateMapZoomTo(map,17);
     map.panTo(marker.getPosition());
     let cat_num = marker.tag.num;
-    // console.log(cat_num);
     var sc = 'https://soundmap.sfo2.digitaloceanspaces.com/UCSC/edited_catalog/'+catalog_num.toString()+'.wav';
     // myAudioPlayer.sourceTag.setAttribute('src', myAudioPlayer.audioSource);
     // console.log(myAudioPlayer.audioSource);
@@ -104,8 +106,6 @@ const attachName = (marker, name, catalog_num) => {
     srcElement.setAttribute('type','audio/wav');
     audioFileContents.appendChild(srcElement);
     myAudioPlayer.audioFile = document.getElementById('audio-file');
-    // console.log(myAudioPlayer.audioFile);
-
     var playerContents = document.getElementById('audio-player');
     while (playerContents.firstChild) {
       playerContents.removeChild(playerContents.firstChild);
@@ -158,6 +158,12 @@ window.pinsCallback = function(results) {
     // console.log(results.features[i].catalog_number_);
     attachName(marker,results.features[i].colloquial_location,results.features[i].catalog_number);
     markerArray.push(marker);
+  };
+};
+
+window.tempsCallback = temps => {
+  for (i = 0; i < Object.keys(temps).length; i++) {
+    markerArray[i].tag.temp = temps[i+1];
   };
 };
 

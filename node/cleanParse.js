@@ -1,6 +1,6 @@
 const papa = require('papaparse');
 const fs = require('fs');
-const file = fs.createReadStream('UCSCSoundMap.csv');
+const file = fs.createReadStream('csv/UCSCSoundMap.csv');
 
 
 // see if DB already exists?
@@ -31,8 +31,14 @@ const cleanKeys = keys => {
 
 const saveResultAsJSON = result => {
   let data = JSON.stringify(result);
-  data = 'pinsCallback({"type":"featureCollection","features":' + data + '})';
+  data = 'pinsCallback({"type":"featureCollection","features":' + data + '}';
   fs.writeFileSync('pins.js', data);
+}
+
+const saveAlso = result => {
+  let data = JSON.stringify(result);
+  data = '{"type":"featureCollection","features":' + data + '}';
+  fs.writeFileSync('data.JSON', data);
 }
 
 
@@ -45,6 +51,7 @@ async function asyncReadCSV(file) {
     arrayOfMarks.push(writeMark(rowNames,entry))
   });
   saveResultAsJSON(arrayOfMarks);
+  saveAlso(arrayOfMarks)
 };
 
 
