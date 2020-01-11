@@ -17,7 +17,6 @@ const make000 = num => {
   };
   return num
 };
-
 var map;
 function initMap() {
   map = new google.maps.Map(document.getElementById('map'), {
