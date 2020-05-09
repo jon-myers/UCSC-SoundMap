@@ -31,14 +31,14 @@ const cleanKeys = keys => {
 
 const saveResultAsJSON = result => {
   let data = JSON.stringify(result);
-  data = 'pinsCallback({"type":"featureCollection","features":' + data + '}';
-  fs.writeFileSync('pins.js', data);
+  data = 'pinsCallback({"type":"featureCollection","features":' + data + '})';
+  fs.writeFileSync('json/pins.js', data);
 }
 
 const saveAlso = result => {
   let data = JSON.stringify(result);
   data = '{"type":"featureCollection","features":' + data + '}';
-  fs.writeFileSync('data.JSON', data);
+  fs.writeFileSync('json/data.JSON', data);
 }
 
 

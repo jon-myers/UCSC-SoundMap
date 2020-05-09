@@ -10,13 +10,18 @@ const formatDateTime = (date, time) => {
     if (date[j].length == 1) {date[j] = '0'+date[j]}
   };
   date = date.join('-');
-  date = new Date(date+'T'+time);
-  date = date.getTime()/1000;
-  console.log(date);
-  return date;
+  if (time.length === 7) {
+    time = '0'+time;
+  };
+  date_ = new Date(date+'T'+time);
+  date_ = date_.getTime()/1000;
+  if (date_.toString() === 'NaN') {
+    console.log(date);
+  }
+  return date_;
 }
 
-fs.readFile('data.json', 'utf8', (err, data) => {
+fs.readFile('json/data.json', 'utf8', (err, data) => {
   data = JSON.parse(data).features;
   const currentTemps = [];
   let count = 0;
@@ -25,9 +30,10 @@ fs.readFile('data.json', 'utf8', (err, data) => {
     const lon = data[i].longitude;
     const date = data[i].date;
     const time = data[i].start_time;
+    // console.log(data[i]);
     const dateTime = formatDateTime(date, time);
     const url = 'http://localhost:8010/proxy/'+lat+','+lon+','+dateTime;
-    console.log(url);
+    // console.log(url);
     const xhr = new XMLHttpRequest();
     xhr.onreadystatechange = () => {
       if (xhr.readyState === 4) {
@@ -37,8 +43,8 @@ fs.readFile('data.json', 'utf8', (err, data) => {
           const ctJSON = {};
           for (k=0; k<count; k++) {
             ctJSON[k+1] = currentTemps[k];
-            let ctJSONString = JSON.stringify(ctJSON);
-            fs.writeFileSync('currentTemps.json',ctJSONString);
+            let ctJSONString = 'tempsCallback('+JSON.stringify(ctJSON)+')';
+            fs.writeFileSync('json/currentTemps.js',ctJSONString);
           };
 
         }

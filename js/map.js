@@ -161,7 +161,7 @@ window.pinsCallback = function(results) {
 };
 
 window.tempsCallback = temps => {
-  for (i = 0; i < Object.keys(temps).length; i++) {
+  for (let i = 0; i < Object.keys(temps).length; i++) {
     markerArray[i].tag.temp = temps[i+1];
   };
 };
